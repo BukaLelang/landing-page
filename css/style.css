@@ -8,18 +8,18 @@ URL: http://designscrazed.org/
 /* Table of Content
 ==================================================
   1. COMMON STYLES
-  2. SECTION HOME 
+  2. SECTION HOME
   3. SECTION ABOUT
   4. SECTION VIDEO
   5. SECTION TESTIMONIAL
-  6. SECTION FEATURES 
+  6. SECTION FEATURES
   7. SECTION CALL TO ACTION
-  8. SECTION APPS SCREEN 
-  9. SECTION FUN FACTS 
-  10. SECTION DOWNLOAD 
-  11. SECTION CONTACT 
+  8. SECTION APPS SCREEN
+  9. SECTION FUN FACTS
+  10. SECTION DOWNLOAD
+  11. SECTION CONTACT
   12. SECTION SUBSCRIBE
-  13. SECTION FOOTER 
+  13. SECTION FOOTER
 
 */
 * {
@@ -36,7 +36,7 @@ p {
     font-size: 14px;
 }
 /*---------------------------------------
-   COMMON STYLES             
+   COMMON STYLES
 -----------------------------------------*/
 
 .section_title {
@@ -76,7 +76,7 @@ p {
     background-size: cover;
 }
 /*---------------------------------------
-   SECTION HOME              
+   SECTION HOME
 -----------------------------------------*/
 /*menu*/
 
@@ -141,8 +141,9 @@ p {
     color: #f39c12;
 }
 .header {
-    background: url(../images/home.jpg);
-    background-size: cover;
+  /*background: url(../images/home.jpg);*/
+  background: url('http://encinitaseducationalfoundation.org/wp-content/uploads/2015/02/auction_cheering_1.jpg');
+  background-size: cover;
 	background-repeat: no-repeat;
 }
 .header .section_overlay {
@@ -239,7 +240,7 @@ tuor:visited {
 
 
 /*---------------------------------------
-   SECTION ABOUT              
+   SECTION ABOUT
 -----------------------------------------*/
 
 
@@ -313,7 +314,7 @@ tuor:visited {
     }
 }
 /*---------------------------------------
-   SECTION VIDEO              
+   SECTION VIDEO
 -----------------------------------------*/
 
 .video_area {
@@ -374,7 +375,7 @@ tuor:visited {
     padding: 5px;
 }
 /*---------------------------------------
-   SECTION TESTIMONIAL              
+   SECTION TESTIMONIAL
 -----------------------------------------*/
 
 #owl-demo .item {
@@ -442,7 +443,7 @@ div.carousel-inner .item img {
     background: #f39c12;
 }
 /*---------------------------------------
-   SECTION FEATURES              
+   SECTION FEATURES
 -----------------------------------------*/
 
 .features {
@@ -547,7 +548,7 @@ div.carousel-inner .item img {
 
 
 /*---------------------------------------
-   SECTION CALL TO ACTION              
+   SECTION CALL TO ACTION
 -----------------------------------------*/
 
 .call_to_action {
@@ -581,7 +582,7 @@ div.carousel-inner .item img {
 }
 
 /*---------------------------------------
-   SECTION APPS SCREEN             
+   SECTION APPS SCREEN
 -----------------------------------------*/
 
 .apps_screen {
@@ -610,7 +611,7 @@ div.carousel-inner .item img {
     background: #f39c12;
 }
 /*---------------------------------------
-   SECTION FUN FACTS              
+   SECTION FUN FACTS
 -----------------------------------------*/
 
 .fun_facts {
@@ -652,7 +653,7 @@ div.carousel-inner .item img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 /*---------------------------------------
-   SECTION DOWNLOAD              
+   SECTION DOWNLOAD
 -----------------------------------------*/
 
 .download {
@@ -734,7 +735,7 @@ div.carousel-inner .item img {
     border-right: 1px solid #0F1217;
 }
 /*---------------------------------------
-   SECTION CONTACT              
+   SECTION CONTACT
 -----------------------------------------*/
 
 .contact {
@@ -764,7 +765,7 @@ div.carousel-inner .item img {
     -moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
-    outline: 0px !important;   
+    outline: 0px !important;
 
 }
 .contact_form .form-control:focus {
@@ -778,12 +779,12 @@ div.carousel-inner .item img {
 }
 .form-control:-moz-placeholder {
     /* Firefox 18- */
-    
+
     color: red;
 }
 .form-control:-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: red;
 }
 .form-control:-ms-input-placeholder {
@@ -879,7 +880,7 @@ div.carousel-inner .item img {
     resize: none;
 }
 /*---------------------------------------
-   SECTION SUBSCRIBE              
+   SECTION SUBSCRIBE
 -----------------------------------------*/
 
 .subscribe {
@@ -963,7 +964,7 @@ div.carousel-inner .item img {
     font-size: 20px;
 }
 /*---------------------------------------
-   SECTION FOOTER              
+   SECTION FOOTER
 -----------------------------------------*/
 
 .copyright {
@@ -1044,7 +1045,7 @@ select:-webkit-autofill {
     -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
     animation: bouncedelay 1.4s infinite ease-in-out;
     /* Prevent first frame from flickering when animation starts */
-    
+
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
